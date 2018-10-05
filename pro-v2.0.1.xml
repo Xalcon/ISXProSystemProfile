@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="42" VersionMinor="0" BuildDate="05/10/2018 21:10:23">
+<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="42" VersionMinor="0" BuildDate="06/10/2018 00:43:21">
   <CharacterSet>
     <ExecuteOnLoad />
     <Name>Pro System</Name>
@@ -427,6 +427,8 @@
       <string>ISB42 - Action Target Groups</string>
       <string>Combat Hotkeys</string>
       <string>Combat [Virtualized]</string>
+      <string>Healing</string>
+      <string>Healing [Virtualized]</string>
       <string>Initialization</string>
       <string>Spec Menu</string>
       <string>Spec Menu [Virtualized]</string>
@@ -557,7 +559,23 @@
     </KeyMapStrings>
     <KeyMapWhiteOrBlackListType>Ignore</KeyMapWhiteOrBlackListType>
     <KeyMapWhiteOrBlackList />
-    <ClickBarStrings />
+    <ClickBarStrings>
+      <string>oo1 - o1 - Healing (Right)</string>
+      <string>oo1 - o2 - Healing (Rightt)</string>
+      <string>oo1 - o3 - Healing (Right)</string>
+      <string>oo1 - o4 - Healing (Right)</string>
+      <string>oo1 - o5 - Healing (Right)</string>
+      <string>oo2 - o1 - Healing (Center)</string>
+      <string>oo2 - o2 - Healing (Center)</string>
+      <string>oo2 - o3 - Healing (Center)</string>
+      <string>oo2 - o4 - Healing (Center)</string>
+      <string>oo2 - o5 - Healing (Center)</string>
+      <string>oo3 - o1 - Healing (Left)</string>
+      <string>oo3 - o2 - Healing (Left)</string>
+      <string>oo3 - o3 - Healing (Left)</string>
+      <string>oo3 - o4 - Healing (Left)</string>
+      <string>oo3 - o5 - Healing (Left)</string>
+    </ClickBarStrings>
     <MenuInstances />
     <VirtualFileTargets>
       <VirtualFileTarget>
@@ -569,7 +587,11 @@
         <VirtualFileString>AddOns.txt</VirtualFileString>
       </VirtualFileTarget>
     </VirtualFileTargets>
-    <WoWMacroSets />
+    <WoWMacroSets>
+      <WoWMacroSetLooseRef>
+        <WoWMacroSetString>Monk</WoWMacroSetString>
+      </WoWMacroSetLooseRef>
+    </WoWMacroSets>
     <CrypticMacroSets />
     <VirtualMappedKeys>
       <VirtualMappedKey>
@@ -626,7 +648,11 @@
         <VirtualFileString>AddOns.txt</VirtualFileString>
       </VirtualFileTarget>
     </VirtualFileTargets>
-    <WoWMacroSets />
+    <WoWMacroSets>
+      <WoWMacroSetLooseRef>
+        <WoWMacroSetString>Monk</WoWMacroSetString>
+      </WoWMacroSetLooseRef>
+    </WoWMacroSets>
     <CrypticMacroSets />
     <VirtualMappedKeys>
       <VirtualMappedKey>
@@ -683,7 +709,11 @@
         <VirtualFileString>AddOns.txt</VirtualFileString>
       </VirtualFileTarget>
     </VirtualFileTargets>
-    <WoWMacroSets />
+    <WoWMacroSets>
+      <WoWMacroSetLooseRef>
+        <WoWMacroSetString>Monk</WoWMacroSetString>
+      </WoWMacroSetLooseRef>
+    </WoWMacroSets>
     <CrypticMacroSets />
     <VirtualMappedKeys>
       <VirtualMappedKey>
@@ -700,6 +730,14 @@
         </FromMappedKey>
         <ToMappedKey>
           <KeyMapString>Monk Specialization</KeyMapString>
+        </ToMappedKey>
+      </VirtualMappedKey>
+      <VirtualMappedKey>
+        <FromMappedKey>
+          <KeyMapString>Healing [Virtualized]</KeyMapString>
+        </FromMappedKey>
+        <ToMappedKey>
+          <KeyMapString>Monk - Mistweaver</KeyMapString>
         </ToMappedKey>
       </VirtualMappedKey>
     </VirtualMappedKeys>
@@ -740,7 +778,11 @@
         <VirtualFileString>AddOns.txt</VirtualFileString>
       </VirtualFileTarget>
     </VirtualFileTargets>
-    <WoWMacroSets />
+    <WoWMacroSets>
+      <WoWMacroSetLooseRef>
+        <WoWMacroSetString>Monk</WoWMacroSetString>
+      </WoWMacroSetLooseRef>
+    </WoWMacroSets>
     <CrypticMacroSets />
     <VirtualMappedKeys>
       <VirtualMappedKey>
@@ -765,9 +807,10 @@
     <GameProfile>World of Warcraft Default Profile</GameProfile>
     <KnownGame>WoW</KnownGame>
     <RelayGroupStrings>
+      <string>CLASS=Monk</string>
+      <string>ROLE=Healing1</string>
       <string>Follower</string>
       <string>Combat</string>
-      <string>CLASS=Monk</string>
     </RelayGroupStrings>
     <KeyMapStrings>
       <string>Monk Specialization</string>
@@ -789,7 +832,11 @@
         <VirtualFileString>AddOns.txt</VirtualFileString>
       </VirtualFileTarget>
     </VirtualFileTargets>
-    <WoWMacroSets />
+    <WoWMacroSets>
+      <WoWMacroSetLooseRef>
+        <WoWMacroSetString>Monk</WoWMacroSetString>
+      </WoWMacroSetLooseRef>
+    </WoWMacroSets>
     <CrypticMacroSets />
     <VirtualMappedKeys>
       <VirtualMappedKey>
@@ -798,6 +845,22 @@
         </FromMappedKey>
         <ToMappedKey>
           <KeyMapString>Monk Specialization</KeyMapString>
+        </ToMappedKey>
+      </VirtualMappedKey>
+      <VirtualMappedKey>
+        <FromMappedKey>
+          <KeyMapString>Healing [Virtualized]</KeyMapString>
+        </FromMappedKey>
+        <ToMappedKey>
+          <KeyMapString>Monk - Mistweaver</KeyMapString>
+        </ToMappedKey>
+      </VirtualMappedKey>
+      <VirtualMappedKey>
+        <FromMappedKey>
+          <KeyMapString>Combat [Virtualized]</KeyMapString>
+        </FromMappedKey>
+        <ToMappedKey>
+          <KeyMapString>Monk - Mistweaver</KeyMapString>
         </ToMappedKey>
       </VirtualMappedKey>
     </VirtualMappedKeys>
@@ -3919,6 +3982,608 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     <Mappings />
   </KeyMap>
   <KeyMap>
+    <Name>📂 Healing</Name>
+    <Mappings />
+  </KeyMap>
+  <KeyMap>
+    <Name>Healing</Name>
+    <Mappings>
+      <MappedKey>
+        <Name>1oo_________________________Main Healer</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>1oo - Toggle Mouseover</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="KeyMapAction">
+                <KeyMapString>Healing [Mouseover/Primary]</KeyMapString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="KeyMapAction">
+                <Value>Off</Value>
+                <KeyMapString>Healing [Mouseover/Secondary]</KeyMapString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="KeyMapAction">
+                <Value>Off</Value>
+                <KeyMapString>Healing [Mouseover/Tertiary]</KeyMapString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="KeyMapAction">
+                <Value>Off</Value>
+                <KeyMapString>Healing [Mouseover/Primary]</KeyMapString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>1oo - AoE Heal</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Healing [Virtualized]</KeyMapString>
+                <MappedKeyString>1oo - AoE Heal</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>1oo - Heal CD1</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Healing [Virtualized]</KeyMapString>
+                <MappedKeyString>1oo - Heal CD1</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>1oo - Heal CD2</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Healing [Virtualized]</KeyMapString>
+                <MappedKeyString>1oo - Heal CD2</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>1oo - Heal CD3</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Healing [Virtualized]</KeyMapString>
+                <MappedKeyString>1oo - Heal CD3</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>2oo_________________________Secondary Healer</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>2oo - Toggle Mouseover</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="KeyMapAction">
+                <Value>Off</Value>
+                <KeyMapString>Healing [Mouseover/Primary]</KeyMapString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="KeyMapAction">
+                <KeyMapString>Healing [Mouseover/Secondary]</KeyMapString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="KeyMapAction">
+                <Value>Off</Value>
+                <KeyMapString>Healing [Mouseover/Tertiary]</KeyMapString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="KeyMapAction">
+                <Value>Off</Value>
+                <KeyMapString>Healing [Mouseover/Secondary]</KeyMapString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>3oo_________________________Tertiary Healer</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>3oo - Toggle Mouseover</Name>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="KeyMapAction">
+                <Value>Off</Value>
+                <KeyMapString>Healing [Mouseover/Primary]</KeyMapString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="KeyMapAction">
+                <Value>Off</Value>
+                <KeyMapString>Healing [Mouseover/Secondary]</KeyMapString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="KeyMapAction">
+                <KeyMapString>Healing [Mouseover/Tertiary]</KeyMapString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="KeyMapAction">
+                <Value>Off</Value>
+                <KeyMapString>Healing [Mouseover/Tertiary]</KeyMapString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+    </Mappings>
+  </KeyMap>
+  <KeyMap>
+    <Name>Healing [Virtualized]</Name>
+    <Mappings>
+      <MappedKey>
+        <Name>1oo_________________________Main Healer</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>1oo - MO Targeted Heal (Fast)</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>1oo - MO Targeted Heal (Efficient)</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>1oo - MO Targeted Heal (Burst)</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>1oo - MO Targeted Heal (HoT)</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>1oo - MO Targeted CD (Defensive)</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>1oo - MO Dispel</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>1oo - AoE Heal</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>1oo - Heal CD1</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>1oo - Heal CD2</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>1oo - Heal CD3</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>2oo_________________________Secondary Healer</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>2oo - MO Targeted Heal (Fast)</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>2oo - MO Dispel</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>3oo_________________________Tertiary Healer</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>3oo - MO Targeted Heal (Fast)</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>3oo - MO Dispel</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+    </Mappings>
+  </KeyMap>
+  <KeyMap>
+    <Name>Healing [Mouseover/Primary]</Name>
+    <Mappings>
+      <MappedKey>
+        <Name>1oo - MO Targeted Heal (Fast)</Name>
+        <Combo>
+          <Combo>Mouse1</Combo>
+          <Key>
+            <Key>Mouse1</Key>
+            <Code>0</Code>
+          </Key>
+        </Combo>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="SyncCursorAction">
+                <Target>other ROLE=Healing1</Target>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>ROLE=Healing1</Target>
+                <KeyMapString>Healing [Virtualized]</KeyMapString>
+                <MappedKeyString>1oo - MO Targeted Heal (Fast)</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>1oo - MO Targeted Heal (Efficient)</Name>
+        <Combo>
+          <Combo>Mouse2</Combo>
+          <Key>
+            <Key>Mouse2</Key>
+            <Code>0</Code>
+          </Key>
+        </Combo>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="SyncCursorAction">
+                <Target>other ROLE=Healing1</Target>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>ROLE=Healing1</Target>
+                <KeyMapString>Healing [Virtualized]</KeyMapString>
+                <MappedKeyString>1oo - MO Targeted Heal (Efficient)</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>1oo - MO Targeted Heal (Burst)</Name>
+        <Combo>
+          <Combo>Mouse4</Combo>
+          <Key>
+            <Key>Mouse4</Key>
+            <Code>0</Code>
+          </Key>
+        </Combo>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="SyncCursorAction">
+                <Target>other ROLE=Healing1</Target>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>ROLE=Healing1</Target>
+                <KeyMapString>Healing [Virtualized]</KeyMapString>
+                <MappedKeyString>1oo - MO Targeted Heal (Burst)</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>1oo - MO Targeted Heal (HoT)</Name>
+        <Combo>
+          <Combo>Mouse5</Combo>
+          <Key>
+            <Key>Mouse5</Key>
+            <Code>0</Code>
+          </Key>
+        </Combo>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="SyncCursorAction">
+                <Target>Group (others in):ROLE=Healer1</Target>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>ROLE=Healing1</Target>
+                <KeyMapString>Healing [Virtualized]</KeyMapString>
+                <MappedKeyString>1oo - MO Targeted Heal (HoT)</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>1oo - MO Targeted CD (Defensive)</Name>
+        <Combo>
+          <Combo>Mouse3</Combo>
+          <Key>
+            <Key>Mouse3</Key>
+            <Code>0</Code>
+          </Key>
+        </Combo>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="SyncCursorAction">
+                <Target>other ROLE=Healing1</Target>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>ROLE=Healing1</Target>
+                <KeyMapString>Healing [Virtualized]</KeyMapString>
+                <MappedKeyString>1oo - MO Targeted CD (Defensive)</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>1oo - MO Dispel</Name>
+        <Combo>
+          <Combo>MouseWheelDown</Combo>
+          <Key>
+            <Key>MouseWheelDown</Key>
+            <Code>0</Code>
+          </Key>
+        </Combo>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="SyncCursorAction">
+                <Target>other ROLE=Healing1</Target>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>ROLE=Healing1</Target>
+                <KeyMapString>Healing [Virtualized]</KeyMapString>
+                <MappedKeyString>1oo - MO Dispel</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+    </Mappings>
+  </KeyMap>
+  <KeyMap>
+    <Name>Healing [Mouseover/Secondary]</Name>
+    <Mappings>
+      <MappedKey>
+        <Name>2oo - MO Targeted Heal (Fast)</Name>
+        <Combo>
+          <Combo>Mouse1</Combo>
+          <Key>
+            <Key>Mouse1</Key>
+            <Code>0</Code>
+          </Key>
+        </Combo>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="SyncCursorAction">
+                <Target>other ROLE=Healing2</Target>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>Group (others in):ROLE=Healer2</Target>
+                <KeyMapString>Healing [Virtualized]</KeyMapString>
+                <MappedKeyString>2oo - MO Targeted Heal (Fast)</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>2oo - MO Dispel</Name>
+        <Combo>
+          <Combo>MouseWheelDown</Combo>
+          <Key>
+            <Key>MouseWheelDown</Key>
+            <Code>0</Code>
+          </Key>
+        </Combo>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="SyncCursorAction">
+                <Target>other ROLE=Healing2</Target>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>Group (others in):ROLE=Healer2</Target>
+                <KeyMapString>Healing [Virtualized]</KeyMapString>
+                <MappedKeyString>2oo - MO Dispel</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+    </Mappings>
+  </KeyMap>
+  <KeyMap>
+    <Name>Healing [Mouseover/Tertiary]</Name>
+    <Mappings>
+      <MappedKey>
+        <Name>3oo - MO Targeted Heal (Fast)</Name>
+        <Combo>
+          <Combo>Mouse1</Combo>
+          <Key>
+            <Key>Mouse1</Key>
+            <Code>0</Code>
+          </Key>
+        </Combo>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="SyncCursorAction">
+                <Target>other ROLE=Healing3</Target>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>Group (others in):ROLE=Healer3</Target>
+                <KeyMapString>Healing [Virtualized]</KeyMapString>
+                <MappedKeyString>3oo - MO Targeted Heal (Fast)</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>3oo - MO Dispel</Name>
+        <Combo>
+          <Combo>MouseWheelDown</Combo>
+          <Key>
+            <Key>MouseWheelDown</Key>
+            <Code>0</Code>
+          </Key>
+        </Combo>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="SyncCursorAction">
+                <Target>other ROLE=Healing3</Target>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>Group (others in):ROLE=Healer3</Target>
+                <KeyMapString>Healing [Virtualized]</KeyMapString>
+                <MappedKeyString>3oo - MO Dispel</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+    </Mappings>
+  </KeyMap>
+  <KeyMap>
+    <Name />
+    <Mappings />
+  </KeyMap>
+  <KeyMap>
     <Name>📂 Initialize</Name>
     <Mappings />
   </KeyMap>
@@ -4197,6 +4862,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                   <MenuString>Spec x3</MenuString>
                 </MenuButton>
                 <ButtonChanges>
+                  <Actions />
                   <UseImages>true</UseImages>
                   <Image>
                     <ImageString>Monk_Brewmaster.png</ImageString>
@@ -4250,7 +4916,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
               </MappedKeyAction>
               <MappedKeyAction xsi:type="TargetGroupAction">
                 <Action>Join</Action>
-                <RelayGroupString>ROLE=Healing1</RelayGroupString>
+                <RelayGroupString>ROLE=Healing3</RelayGroupString>
               </MappedKeyAction>
               <MappedKeyAction xsi:type="TargetGroupAction">
                 <Action>Join</Action>
@@ -4290,7 +4956,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
               </MappedKeyAction>
               <MappedKeyAction xsi:type="TargetGroupAction">
                 <Action>Join</Action>
-                <RelayGroupString>ROLE=Healing3</RelayGroupString>
+                <RelayGroupString>ROLE=Healing1</RelayGroupString>
               </MappedKeyAction>
               <MappedKeyAction xsi:type="TargetGroupAction">
                 <Action>Leave</Action>
@@ -4372,7 +5038,12 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         <Name>___ - Initialize</Name>
         <Steps>
           <Step>
-            <Actions />
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - Action Target Groups</KeyMapString>
+                <MappedKeyString>Join Healing oo3</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
@@ -4402,6 +5073,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                   <MenuString>Spec Feedback Icon</MenuString>
                 </MenuButton>
                 <ButtonChanges>
+                  <Actions />
                   <UseImages>true</UseImages>
                   <Image>
                     <ImageString>Monk_Brewmaster.png</ImageString>
@@ -4484,7 +5156,12 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         <Name>___ - Initialize</Name>
         <Steps>
           <Step>
-            <Actions />
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - Action Target Groups</KeyMapString>
+                <MappedKeyString>Join Healing oo1</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
@@ -4587,6 +5264,105 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
           </Step>
         </Steps>
       </MappedKey>
+      <MappedKey>
+        <Name>1oo_________________________Main Healer</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>1oo - MO Targeted Heal (Fast)</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>Monk</WoWMacroSetString>
+                  <WoWMacroString>Heal::Vivify</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="PopupTextAction">
+                <Text>HEALING</Text>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>1oo - MO Targeted Heal (Efficient)</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>1oo - MO Targeted Heal (Burst)</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>1oo - MO Targeted Heal (HoT)</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>1oo - MO Targeted CD (Defensive)</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>1oo - MO Dispel</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>1oo - AoE Heal</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>1oo - Heal CD1</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>1oo - Heal CD2</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>1oo - Heal CD3</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
     </Mappings>
   </KeyMap>
   <KeyMap>
@@ -4596,7 +5372,12 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         <Name>___ - Initialize</Name>
         <Steps>
           <Step>
-            <Actions />
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>ISB42 - Action Target Groups</KeyMapString>
+                <MappedKeyString>Join Healing oo2</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
@@ -4973,6 +5754,24 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </WoWMacro>
     </WoWMacros>
   </WoWMacroSet>
+  <WoWMacroSet>
+    <Name>Monk</Name>
+    <WoWMacros>
+      <WoWMacro>
+        <MacroCommands>/use [@mouseover,help,nodead][] Vivify</MacroCommands>
+        <ColloquialName>Heal::Vivify</ColloquialName>
+        <Combo>
+          <Combo>STRG+UMSCHALT+1</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>1</Key>
+            <Code>2</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers />
+      </WoWMacro>
+    </WoWMacros>
+  </WoWMacroSet>
   <VariableKeystroke>
     <Name>Move Forward</Name>
     <Category>Movement</Category>
@@ -5175,6 +5974,610 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     <Description>This can be configured to complete set up of the 'Invite Team' Mapped Key.</Description>
     <DefaultValue />
   </VariableKeystroke>
+  <ClickBar>
+    <Name>oo1 _________________ Primary</Name>
+    <X>0</X>
+    <Y>0</Y>
+    <BackgroundColor />
+    <CellBorder_Color>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+    </CellBorder_Color>
+    <Rows>1</Rows>
+    <Columns>1</Columns>
+    <Buttons />
+  </ClickBar>
+  <ClickBar>
+    <Name>oo1 - o1 - Healing (Right)</Name>
+    <X>468</X>
+    <Y>512</Y>
+    <RowHeight>22</RowHeight>
+    <ColumnWidth>35</ColumnWidth>
+    <BackgroundColor />
+    <CellBorder>0</CellBorder>
+    <CellBorder_Color>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+    </CellBorder_Color>
+    <Rows>1</Rows>
+    <Columns>1</Columns>
+    <Buttons>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Button 1,1</Name>
+        <BackgroundColor>
+          <Red>255</Red>
+          <Green>255</Green>
+          <Blue>255</Blue>
+          <Alpha>128</Alpha>
+        </BackgroundColor>
+        <ClickActions />
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action>
+            <KeyMapString>Healing</KeyMapString>
+            <MappedKeyString>1oo - Toggle Mouseover</MappedKeyString>
+          </Action>
+        </MouseOverAction>
+        <Tooltip />
+        <Text />
+      </Button>
+    </Buttons>
+  </ClickBar>
+  <ClickBar>
+    <Name>oo1 - o2 - Healing (Rightt)</Name>
+    <X>468</X>
+    <Y>558</Y>
+    <RowHeight>22</RowHeight>
+    <ColumnWidth>35</ColumnWidth>
+    <BackgroundColor />
+    <CellBorder>0</CellBorder>
+    <CellBorder_Color>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+    </CellBorder_Color>
+    <Rows>1</Rows>
+    <Columns>1</Columns>
+    <Buttons>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Button 1,1</Name>
+        <BackgroundColor>
+          <Red>255</Red>
+          <Green>255</Green>
+          <Blue>255</Blue>
+          <Alpha>128</Alpha>
+        </BackgroundColor>
+        <ClickActions />
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action>
+            <KeyMapString>Healing</KeyMapString>
+            <MappedKeyString>1oo - Toggle Mouseover</MappedKeyString>
+          </Action>
+        </MouseOverAction>
+        <Text />
+      </Button>
+    </Buttons>
+  </ClickBar>
+  <ClickBar>
+    <Name>oo1 - o3 - Healing (Right)</Name>
+    <X>468</X>
+    <Y>604</Y>
+    <RowHeight>22</RowHeight>
+    <ColumnWidth>35</ColumnWidth>
+    <BackgroundColor />
+    <CellBorder>0</CellBorder>
+    <CellBorder_Color>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+    </CellBorder_Color>
+    <Rows>1</Rows>
+    <Columns>1</Columns>
+    <Buttons>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Button 1,1</Name>
+        <BackgroundColor>
+          <Red>255</Red>
+          <Green>255</Green>
+          <Blue>255</Blue>
+          <Alpha>128</Alpha>
+        </BackgroundColor>
+        <ClickActions />
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action>
+            <KeyMapString>Healing</KeyMapString>
+            <MappedKeyString>1oo - Toggle Mouseover</MappedKeyString>
+          </Action>
+        </MouseOverAction>
+        <Text />
+      </Button>
+    </Buttons>
+  </ClickBar>
+  <ClickBar>
+    <Name>oo1 - o4 - Healing (Right)</Name>
+    <X>468</X>
+    <Y>650</Y>
+    <RowHeight>22</RowHeight>
+    <ColumnWidth>35</ColumnWidth>
+    <BackgroundColor />
+    <CellBorder>0</CellBorder>
+    <CellBorder_Color>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+    </CellBorder_Color>
+    <Rows>1</Rows>
+    <Columns>1</Columns>
+    <Buttons>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Button 1,1</Name>
+        <BackgroundColor>
+          <Red>255</Red>
+          <Green>255</Green>
+          <Blue>255</Blue>
+          <Alpha>128</Alpha>
+        </BackgroundColor>
+        <ClickActions />
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action>
+            <KeyMapString>Healing</KeyMapString>
+            <MappedKeyString>1oo - Toggle Mouseover</MappedKeyString>
+          </Action>
+        </MouseOverAction>
+        <Text />
+      </Button>
+    </Buttons>
+  </ClickBar>
+  <ClickBar>
+    <Name>oo1 - o5 - Healing (Right)</Name>
+    <X>468</X>
+    <Y>696</Y>
+    <RowHeight>22</RowHeight>
+    <ColumnWidth>35</ColumnWidth>
+    <BackgroundColor />
+    <CellBorder>0</CellBorder>
+    <CellBorder_Color>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+    </CellBorder_Color>
+    <Rows>1</Rows>
+    <Columns>1</Columns>
+    <Buttons>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Button 1,1</Name>
+        <BackgroundColor>
+          <Red>255</Red>
+          <Green>255</Green>
+          <Blue>255</Blue>
+          <Alpha>128</Alpha>
+        </BackgroundColor>
+        <ClickActions />
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action>
+            <KeyMapString>Healing</KeyMapString>
+            <MappedKeyString>1oo - Toggle Mouseover</MappedKeyString>
+          </Action>
+        </MouseOverAction>
+        <Text />
+      </Button>
+    </Buttons>
+  </ClickBar>
+  <ClickBar>
+    <Name>oo2 _________________ Secondary</Name>
+    <X>0</X>
+    <Y>0</Y>
+    <BackgroundColor />
+    <CellBorder_Color>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+    </CellBorder_Color>
+    <Rows>1</Rows>
+    <Columns>1</Columns>
+    <Buttons />
+  </ClickBar>
+  <ClickBar>
+    <Name>oo2 - o1 - Healing (Center)</Name>
+    <X>418</X>
+    <Y>512</Y>
+    <RowHeight>22</RowHeight>
+    <ColumnWidth>35</ColumnWidth>
+    <BackgroundColor />
+    <CellBorder>0</CellBorder>
+    <CellBorder_Color>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+    </CellBorder_Color>
+    <Rows>1</Rows>
+    <Columns>1</Columns>
+    <Buttons>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Button 1,1</Name>
+        <BackgroundColor>
+          <Red>255</Red>
+          <Green>255</Green>
+          <Blue>255</Blue>
+          <Alpha>128</Alpha>
+        </BackgroundColor>
+        <ClickActions />
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action>
+            <KeyMapString>Healing</KeyMapString>
+            <MappedKeyString>2oo - Toggle Mouseover</MappedKeyString>
+          </Action>
+        </MouseOverAction>
+        <Tooltip />
+        <Text />
+      </Button>
+    </Buttons>
+  </ClickBar>
+  <ClickBar>
+    <Name>oo2 - o2 - Healing (Center)</Name>
+    <X>418</X>
+    <Y>558</Y>
+    <RowHeight>22</RowHeight>
+    <ColumnWidth>35</ColumnWidth>
+    <BackgroundColor />
+    <CellBorder>0</CellBorder>
+    <CellBorder_Color>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+    </CellBorder_Color>
+    <Rows>1</Rows>
+    <Columns>1</Columns>
+    <Buttons>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Button 1,1</Name>
+        <BackgroundColor>
+          <Red>255</Red>
+          <Green>255</Green>
+          <Blue>255</Blue>
+          <Alpha>128</Alpha>
+        </BackgroundColor>
+        <ClickActions />
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action>
+            <KeyMapString>Healing</KeyMapString>
+            <MappedKeyString>2oo - Toggle Mouseover</MappedKeyString>
+          </Action>
+        </MouseOverAction>
+        <Tooltip />
+        <Text />
+      </Button>
+    </Buttons>
+  </ClickBar>
+  <ClickBar>
+    <Name>oo2 - o3 - Healing (Center)</Name>
+    <X>418</X>
+    <Y>604</Y>
+    <RowHeight>22</RowHeight>
+    <ColumnWidth>35</ColumnWidth>
+    <BackgroundColor />
+    <CellBorder>0</CellBorder>
+    <CellBorder_Color>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+    </CellBorder_Color>
+    <Rows>1</Rows>
+    <Columns>1</Columns>
+    <Buttons>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Button 1,1</Name>
+        <BackgroundColor>
+          <Red>255</Red>
+          <Green>255</Green>
+          <Blue>255</Blue>
+          <Alpha>128</Alpha>
+        </BackgroundColor>
+        <ClickActions />
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action>
+            <KeyMapString>Healing</KeyMapString>
+            <MappedKeyString>2oo - Toggle Mouseover</MappedKeyString>
+          </Action>
+        </MouseOverAction>
+        <Tooltip />
+        <Text />
+      </Button>
+    </Buttons>
+  </ClickBar>
+  <ClickBar>
+    <Name>oo2 - o4 - Healing (Center)</Name>
+    <X>418</X>
+    <Y>650</Y>
+    <RowHeight>22</RowHeight>
+    <ColumnWidth>35</ColumnWidth>
+    <BackgroundColor />
+    <CellBorder>0</CellBorder>
+    <CellBorder_Color>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+    </CellBorder_Color>
+    <Rows>1</Rows>
+    <Columns>1</Columns>
+    <Buttons>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Button 1,1</Name>
+        <BackgroundColor>
+          <Red>255</Red>
+          <Green>255</Green>
+          <Blue>255</Blue>
+          <Alpha>128</Alpha>
+        </BackgroundColor>
+        <ClickActions />
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action>
+            <KeyMapString>Healing</KeyMapString>
+            <MappedKeyString>2oo - Toggle Mouseover</MappedKeyString>
+          </Action>
+        </MouseOverAction>
+        <Tooltip />
+        <Text />
+      </Button>
+    </Buttons>
+  </ClickBar>
+  <ClickBar>
+    <Name>oo2 - o5 - Healing (Center)</Name>
+    <X>418</X>
+    <Y>696</Y>
+    <RowHeight>22</RowHeight>
+    <ColumnWidth>35</ColumnWidth>
+    <BackgroundColor />
+    <CellBorder>0</CellBorder>
+    <CellBorder_Color>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+    </CellBorder_Color>
+    <Rows>1</Rows>
+    <Columns>1</Columns>
+    <Buttons>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Button 1,1</Name>
+        <BackgroundColor>
+          <Red>255</Red>
+          <Green>255</Green>
+          <Blue>255</Blue>
+          <Alpha>128</Alpha>
+        </BackgroundColor>
+        <ClickActions />
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action>
+            <KeyMapString>Healing</KeyMapString>
+            <MappedKeyString>2oo - Toggle Mouseover</MappedKeyString>
+          </Action>
+        </MouseOverAction>
+        <Tooltip />
+        <Text />
+      </Button>
+    </Buttons>
+  </ClickBar>
+  <ClickBar>
+    <Name>oo3 _________________ Tertiary</Name>
+    <X>0</X>
+    <Y>0</Y>
+    <BackgroundColor />
+    <CellBorder_Color>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+    </CellBorder_Color>
+    <Rows>1</Rows>
+    <Columns>1</Columns>
+    <Buttons />
+  </ClickBar>
+  <ClickBar>
+    <Name>oo3 - o1 - Healing (Left)</Name>
+    <X>367</X>
+    <Y>512</Y>
+    <RowHeight>22</RowHeight>
+    <ColumnWidth>35</ColumnWidth>
+    <BackgroundColor />
+    <CellBorder>0</CellBorder>
+    <CellBorder_Color>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+    </CellBorder_Color>
+    <Rows>1</Rows>
+    <Columns>1</Columns>
+    <Buttons>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Button 1,1</Name>
+        <BackgroundColor>
+          <Red>255</Red>
+          <Green>255</Green>
+          <Blue>255</Blue>
+          <Alpha>128</Alpha>
+        </BackgroundColor>
+        <ClickActions />
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action>
+            <KeyMapString>Healing</KeyMapString>
+            <MappedKeyString>3oo - Toggle Mouseover</MappedKeyString>
+          </Action>
+        </MouseOverAction>
+        <Tooltip />
+        <Text />
+      </Button>
+    </Buttons>
+  </ClickBar>
+  <ClickBar>
+    <Name>oo3 - o2 - Healing (Left)</Name>
+    <X>367</X>
+    <Y>558</Y>
+    <RowHeight>22</RowHeight>
+    <ColumnWidth>35</ColumnWidth>
+    <BackgroundColor />
+    <CellBorder>0</CellBorder>
+    <CellBorder_Color>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+    </CellBorder_Color>
+    <Rows>1</Rows>
+    <Columns>1</Columns>
+    <Buttons>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Button 1,1</Name>
+        <BackgroundColor>
+          <Red>255</Red>
+          <Green>255</Green>
+          <Blue>255</Blue>
+          <Alpha>128</Alpha>
+        </BackgroundColor>
+        <ClickActions />
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action>
+            <KeyMapString>Healing</KeyMapString>
+          </Action>
+        </MouseOverAction>
+        <Tooltip />
+        <Text />
+      </Button>
+    </Buttons>
+  </ClickBar>
+  <ClickBar>
+    <Name>oo3 - o3 - Healing (Left)</Name>
+    <X>367</X>
+    <Y>604</Y>
+    <RowHeight>22</RowHeight>
+    <ColumnWidth>35</ColumnWidth>
+    <BackgroundColor />
+    <CellBorder>0</CellBorder>
+    <CellBorder_Color>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+    </CellBorder_Color>
+    <Rows>1</Rows>
+    <Columns>1</Columns>
+    <Buttons>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Button 1,1</Name>
+        <BackgroundColor>
+          <Red>255</Red>
+          <Green>255</Green>
+          <Blue>255</Blue>
+          <Alpha>128</Alpha>
+        </BackgroundColor>
+        <ClickActions />
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action>
+            <KeyMapString>Healing</KeyMapString>
+          </Action>
+        </MouseOverAction>
+        <Tooltip />
+        <Text />
+      </Button>
+    </Buttons>
+  </ClickBar>
+  <ClickBar>
+    <Name>oo3 - o4 - Healing (Left)</Name>
+    <X>367</X>
+    <Y>650</Y>
+    <RowHeight>22</RowHeight>
+    <ColumnWidth>35</ColumnWidth>
+    <BackgroundColor />
+    <CellBorder>0</CellBorder>
+    <CellBorder_Color>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+    </CellBorder_Color>
+    <Rows>1</Rows>
+    <Columns>1</Columns>
+    <Buttons>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Button 1,1</Name>
+        <BackgroundColor>
+          <Red>255</Red>
+          <Green>255</Green>
+          <Blue>255</Blue>
+          <Alpha>128</Alpha>
+        </BackgroundColor>
+        <ClickActions />
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action>
+            <KeyMapString>Healing</KeyMapString>
+          </Action>
+        </MouseOverAction>
+        <Tooltip />
+        <Text />
+      </Button>
+    </Buttons>
+  </ClickBar>
+  <ClickBar>
+    <Name>oo3 - o5 - Healing (Left)</Name>
+    <X>367</X>
+    <Y>696</Y>
+    <RowHeight>22</RowHeight>
+    <ColumnWidth>35</ColumnWidth>
+    <BackgroundColor />
+    <CellBorder>0</CellBorder>
+    <CellBorder_Color>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+    </CellBorder_Color>
+    <Rows>1</Rows>
+    <Columns>1</Columns>
+    <Buttons>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Button 1,1</Name>
+        <BackgroundColor>
+          <Red>255</Red>
+          <Green>255</Green>
+          <Blue>255</Blue>
+          <Alpha>128</Alpha>
+        </BackgroundColor>
+        <ClickActions />
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Action>
+            <KeyMapString>Healing</KeyMapString>
+          </Action>
+        </MouseOverAction>
+        <Tooltip />
+        <Text />
+      </Button>
+    </Buttons>
+  </ClickBar>
   <MenuButtonSet>
     <Name>ISB42 - Toggles</Name>
     <Description>Quick Setup Wizard 42 - Standard Toggles Menu Buttons, i.e. Hotkeys and Broadcasting</Description>
