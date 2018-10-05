@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="42" VersionMinor="0" BuildDate="05/10/2018 16:56:55">
+<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="42" VersionMinor="0" BuildDate="05/10/2018 20:47:33">
   <CharacterSet>
     <ExecuteOnLoad />
     <Name>Pro System</Name>
@@ -27,13 +27,15 @@
         <BackgroundMaxFPS>30</BackgroundMaxFPS>
         <CharacterString>[Monk] Zarustrasza-Argent Dawn</CharacterString>
         <SwitchToCombo>
-          <Combo>NONE</Combo>
+          <Combo>1 (ZEHNERTASTATUR)</Combo>
           <Key>
-            <Key>NONE</Key>
-            <Code>0</Code>
+            <Key>1 (ZEHNERTASTATUR)</Key>
+            <Code>79</Code>
           </Key>
         </SwitchToCombo>
+        <SwitchToComboIsGlobal>false</SwitchToComboIsGlobal>
         <EffectType>OnFocus</EffectType>
+        <WindowTitle />
         <SwitchToKeyMapString>ISB42 - WoW</SwitchToKeyMapString>
         <SwitchToMappedKeyString>JambaMaster</SwitchToMappedKeyString>
         <FTLModifiers>
@@ -101,13 +103,15 @@
         <BackgroundMaxFPS>30</BackgroundMaxFPS>
         <CharacterString>[Monk] Furastrasza-Argent Dawn</CharacterString>
         <SwitchToCombo>
-          <Combo>NONE</Combo>
+          <Combo>2 (ZEHNERTASTATUR)</Combo>
           <Key>
-            <Key>NONE</Key>
-            <Code>0</Code>
+            <Key>2 (ZEHNERTASTATUR)</Key>
+            <Code>80</Code>
           </Key>
         </SwitchToCombo>
+        <SwitchToComboIsGlobal>false</SwitchToComboIsGlobal>
         <EffectType>OnFocus</EffectType>
+        <WindowTitle />
         <SwitchToKeyMapString>ISB42 - WoW</SwitchToKeyMapString>
         <SwitchToMappedKeyString>JambaMaster</SwitchToMappedKeyString>
         <FTLModifiers>
@@ -175,13 +179,15 @@
         <BackgroundMaxFPS>30</BackgroundMaxFPS>
         <CharacterString>[Monk] Xalistrasza-Argent Dawn</CharacterString>
         <SwitchToCombo>
-          <Combo>NONE</Combo>
+          <Combo>3 (ZEHNERTASTATUR)</Combo>
           <Key>
-            <Key>NONE</Key>
-            <Code>0</Code>
+            <Key>3 (ZEHNERTASTATUR)</Key>
+            <Code>81</Code>
           </Key>
         </SwitchToCombo>
+        <SwitchToComboIsGlobal>false</SwitchToComboIsGlobal>
         <EffectType>OnFocus</EffectType>
+        <WindowTitle />
         <SwitchToKeyMapString>ISB42 - WoW</SwitchToKeyMapString>
         <SwitchToMappedKeyString>JambaMaster</SwitchToMappedKeyString>
         <FTLModifiers>
@@ -249,13 +255,15 @@
         <BackgroundMaxFPS>30</BackgroundMaxFPS>
         <CharacterString>[Monk] Naristrasza-Argent Dawn</CharacterString>
         <SwitchToCombo>
-          <Combo>NONE</Combo>
+          <Combo>4 (ZEHNERTASTATUR)</Combo>
           <Key>
-            <Key>NONE</Key>
-            <Code>0</Code>
+            <Key>4 (ZEHNERTASTATUR)</Key>
+            <Code>75</Code>
           </Key>
         </SwitchToCombo>
+        <SwitchToComboIsGlobal>false</SwitchToComboIsGlobal>
         <EffectType>OnFocus</EffectType>
+        <WindowTitle />
         <SwitchToKeyMapString>ISB42 - WoW</SwitchToKeyMapString>
         <SwitchToMappedKeyString>JambaMaster</SwitchToMappedKeyString>
         <FTLModifiers>
@@ -323,13 +331,15 @@
         <BackgroundMaxFPS>30</BackgroundMaxFPS>
         <CharacterString>[Monk] Alistrasza-Argent Dawn</CharacterString>
         <SwitchToCombo>
-          <Combo>NONE</Combo>
+          <Combo>5 (ZEHNERTASTATUR)</Combo>
           <Key>
-            <Key>NONE</Key>
-            <Code>0</Code>
+            <Key>5 (ZEHNERTASTATUR)</Key>
+            <Code>76</Code>
           </Key>
         </SwitchToCombo>
+        <SwitchToComboIsGlobal>false</SwitchToComboIsGlobal>
         <EffectType>OnFocus</EffectType>
+        <WindowTitle />
         <SwitchToKeyMapString>ISB42 - WoW</SwitchToKeyMapString>
         <SwitchToMappedKeyString>JambaMaster</SwitchToMappedKeyString>
         <FTLModifiers>
@@ -398,6 +408,7 @@
         <BackgroundMaxFPS>30</BackgroundMaxFPS>
         <CharacterString>DxNothing VFX1</CharacterString>
         <EffectType>None</EffectType>
+        <WindowTitle />
         <FTLModifiers />
         <CPUCores />
         <VariableKeystrokeInstances />
@@ -407,6 +418,7 @@
     <LockWindow>true</LockWindow>
     <RepeaterProfile>Default</RepeaterProfile>
     <KeyMapStrings>
+      <string>📂 Main</string>
       <string>ISB42 - Always On</string>
       <string>ISB42 - Base Hotkeys</string>
       <string>ISB42 - Toggles</string>
@@ -564,11 +576,17 @@
         <FromMappedKey>
           <KeyMapString>Combat [Virtualized]</KeyMapString>
         </FromMappedKey>
+        <ToMappedKey>
+          <KeyMapString>Monk - Brewmaster</KeyMapString>
+        </ToMappedKey>
       </VirtualMappedKey>
       <VirtualMappedKey>
         <FromMappedKey>
           <KeyMapString>Spec Menu [Virtualized]</KeyMapString>
         </FromMappedKey>
+        <ToMappedKey>
+          <KeyMapString>Monk Specialization</KeyMapString>
+        </ToMappedKey>
       </VirtualMappedKey>
     </VirtualMappedKeys>
     <VariableKeystrokeInstances />
@@ -610,7 +628,24 @@
     </VirtualFileTargets>
     <WoWMacroSets />
     <CrypticMacroSets />
-    <VirtualMappedKeys />
+    <VirtualMappedKeys>
+      <VirtualMappedKey>
+        <FromMappedKey>
+          <KeyMapString>Combat [Virtualized]</KeyMapString>
+        </FromMappedKey>
+        <ToMappedKey>
+          <KeyMapString>Monk - Windwalker</KeyMapString>
+        </ToMappedKey>
+      </VirtualMappedKey>
+      <VirtualMappedKey>
+        <FromMappedKey>
+          <KeyMapString>Spec Menu [Virtualized]</KeyMapString>
+        </FromMappedKey>
+        <ToMappedKey>
+          <KeyMapString>Monk Specialization</KeyMapString>
+        </ToMappedKey>
+      </VirtualMappedKey>
+    </VirtualMappedKeys>
     <VariableKeystrokeInstances />
   </Character>
   <Character>
@@ -650,7 +685,24 @@
     </VirtualFileTargets>
     <WoWMacroSets />
     <CrypticMacroSets />
-    <VirtualMappedKeys />
+    <VirtualMappedKeys>
+      <VirtualMappedKey>
+        <FromMappedKey>
+          <KeyMapString>Combat [Virtualized]</KeyMapString>
+        </FromMappedKey>
+        <ToMappedKey>
+          <KeyMapString>Monk - Mistweaver</KeyMapString>
+        </ToMappedKey>
+      </VirtualMappedKey>
+      <VirtualMappedKey>
+        <FromMappedKey>
+          <KeyMapString>Spec Menu [Virtualized]</KeyMapString>
+        </FromMappedKey>
+        <ToMappedKey>
+          <KeyMapString>Monk Specialization</KeyMapString>
+        </ToMappedKey>
+      </VirtualMappedKey>
+    </VirtualMappedKeys>
     <VariableKeystrokeInstances />
   </Character>
   <Character>
@@ -690,7 +742,16 @@
     </VirtualFileTargets>
     <WoWMacroSets />
     <CrypticMacroSets />
-    <VirtualMappedKeys />
+    <VirtualMappedKeys>
+      <VirtualMappedKey>
+        <FromMappedKey>
+          <KeyMapString>Spec Menu [Virtualized]</KeyMapString>
+        </FromMappedKey>
+        <ToMappedKey>
+          <KeyMapString>Monk Specialization</KeyMapString>
+        </ToMappedKey>
+      </VirtualMappedKey>
+    </VirtualMappedKeys>
     <VariableKeystrokeInstances />
   </Character>
   <Character>
@@ -730,7 +791,16 @@
     </VirtualFileTargets>
     <WoWMacroSets />
     <CrypticMacroSets />
-    <VirtualMappedKeys />
+    <VirtualMappedKeys>
+      <VirtualMappedKey>
+        <FromMappedKey>
+          <KeyMapString>Spec Menu [Virtualized]</KeyMapString>
+        </FromMappedKey>
+        <ToMappedKey>
+          <KeyMapString>Monk Specialization</KeyMapString>
+        </ToMappedKey>
+      </VirtualMappedKey>
+    </VirtualMappedKeys>
     <VariableKeystrokeInstances />
   </Character>
   <Character>
@@ -1064,7 +1134,28 @@
   </RelayGroup>
   <KeyMap>
     <Name>📂 Main</Name>
-    <Mappings />
+    <Mappings>
+      <MappedKey>
+        <Name>Debug</Name>
+        <Combo>
+          <Combo>TButton2</Combo>
+          <Key>
+            <Key>TButton2</Key>
+            <Code>0</Code>
+          </Key>
+        </Combo>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="PopupTextAction">
+                <Text>Hello World</Text>
+                <DurationMS>1000</DurationMS>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+    </Mappings>
   </KeyMap>
   <KeyMap>
     <Name>ISB42 - Always On</Name>
@@ -3584,82 +3675,155 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     <Name>Combat Hotkeys</Name>
     <Mappings>
       <MappedKey>
-        <Name>___ - Initialize</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>___ - Buttons (Show)</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>___ - Buttons (Hide)</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
         <Name>ooS - Spec Assignment Check</Name>
+        <Combo>
+          <Combo>STRG+UMSCHALT+ALT+A</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>A</Key>
+            <Code>30</Code>
+          </Key>
+        </Combo>
         <Steps>
           <Step>
-            <Actions />
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>all</Target>
+                <KeyMapString>Combat [Virtualized]</KeyMapString>
+                <MappedKeyString>ooS - Spec Assignment Check</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
         <Name>oo1 - DPS Rotation</Name>
+        <Combo>
+          <Combo>2</Combo>
+          <Key>
+            <Key>2</Key>
+            <Code>3</Code>
+          </Key>
+        </Combo>
         <Steps>
           <Step>
-            <Actions />
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>all</Target>
+                <KeyMapString>Combat [Virtualized]</KeyMapString>
+                <MappedKeyString>oo1 - DPS Rotation</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
         <Name>oo2 - AOE DPS Rotation</Name>
+        <Combo>
+          <Combo>3</Combo>
+          <Key>
+            <Key>3</Key>
+            <Code>4</Code>
+          </Key>
+        </Combo>
         <Steps>
           <Step>
-            <Actions />
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>all</Target>
+                <KeyMapString>Combat [Virtualized]</KeyMapString>
+                <MappedKeyString>oo2 - AOE DPS Rotation</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
         <Name>oo3 - Interrupt</Name>
+        <Combo>
+          <Combo>STRG+5</Combo>
+          <Modifiers>Ctrl</Modifiers>
+          <Key>
+            <Key>5</Key>
+            <Code>6</Code>
+          </Key>
+        </Combo>
+        <Mode>OnRelease</Mode>
         <Steps>
           <Step>
-            <Actions />
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>Group (all of):ABILITY=Interrupt</Target>
+                <RoundRobin>true</RoundRobin>
+                <KeyMapString>Combat [Virtualized]</KeyMapString>
+                <MappedKeyString>oo3 - Interrupt</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
         <Name>oo4 - Stun</Name>
+        <Combo>
+          <Combo>UMSCHALT+E</Combo>
+          <Modifiers>Shift</Modifiers>
+          <Key>
+            <Key>E</Key>
+            <Code>18</Code>
+          </Key>
+        </Combo>
         <Steps>
           <Step>
-            <Actions />
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>Group (all of):ABILITY=Stun</Target>
+                <RoundRobin>true</RoundRobin>
+                <KeyMapString>Combat [Virtualized]</KeyMapString>
+                <MappedKeyString>oo4 - Stun</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
         <Name>oo5 - Cooldowns</Name>
+        <Combo>
+          <Combo>F1</Combo>
+          <Key>
+            <Key>F1</Key>
+            <Code>59</Code>
+          </Key>
+        </Combo>
         <Steps>
           <Step>
-            <Actions />
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>all</Target>
+                <KeyMapString>Combat [Virtualized]</KeyMapString>
+                <MappedKeyString>oo5 - Cooldowns</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
         <Name>oo6 - Taunt</Name>
+        <Combo>
+          <Combo>T</Combo>
+          <Key>
+            <Key>T</Key>
+            <Code>20</Code>
+          </Key>
+        </Combo>
         <Steps>
           <Step>
-            <Actions />
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>all</Target>
+                <KeyMapString>Combat [Virtualized]</KeyMapString>
+                <MappedKeyString>oo6 - Taunt</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
@@ -3667,7 +3831,13 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         <Name>oo7 - Pull</Name>
         <Steps>
           <Step>
-            <Actions />
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>all</Target>
+                <KeyMapString>Combat [Virtualized]</KeyMapString>
+                <MappedKeyString>oo7 - Pull</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
@@ -3815,20 +3985,33 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Combo>
         <Steps>
           <Step>
-            <Actions />
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Spec Menu [Virtualized]</KeyMapString>
+                <MappedKeyString>Soo - Spec Menu Load</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MenuStateAction">
+                <Menu>
+                  <MenuString>Spec x3</MenuString>
+                </Menu>
+                <ActionType>Unload</ActionType>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MenuStateAction">
+                <Menu>
+                  <MenuString>Spec x4</MenuString>
+                </Menu>
+                <ActionType>Unload</ActionType>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
       <MappedKey>
         <Name>Soo - Spec Menu Load</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Soo - Spec Menu Unload</Name>
         <Steps>
           <Step>
             <Actions />
@@ -3847,7 +4030,19 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         <Name>So1 - Spec</Name>
         <Steps>
           <Step>
-            <Actions />
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Spec Menu [Virtualized]</KeyMapString>
+                <MappedKeyString>So1 - Spec</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>General</WoWMacroSetString>
+                  <WoWMacroString>SetSpecialization(1)</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
@@ -3855,7 +4050,19 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         <Name>So2 - Spec</Name>
         <Steps>
           <Step>
-            <Actions />
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Spec Menu [Virtualized]</KeyMapString>
+                <MappedKeyString>So2 - Spec</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>General</WoWMacroSetString>
+                  <WoWMacroString>SetSpecialization(2)</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
@@ -3863,7 +4070,19 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         <Name>So3 - Spec</Name>
         <Steps>
           <Step>
-            <Actions />
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Spec Menu [Virtualized]</KeyMapString>
+                <MappedKeyString>So3 - Spec</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>General</WoWMacroSetString>
+                  <WoWMacroString>SetSpecialization(3)</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
@@ -3871,7 +4090,19 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         <Name>So4 - Spec</Name>
         <Steps>
           <Step>
-            <Actions />
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <KeyMapString>Spec Menu [Virtualized]</KeyMapString>
+                <MappedKeyString>So4 - Spec</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <UseCustomModifiers />
+                <WoWMacro>
+                  <WoWMacroSetString>General</WoWMacroSetString>
+                  <WoWMacroString>SetSpecialization(4)</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
@@ -3882,14 +4113,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     <Mappings>
       <MappedKey>
         <Name>Soo - Spec Menu Load</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Soo - Spec Menu Unload</Name>
         <Steps>
           <Step>
             <Actions />
@@ -3948,7 +4171,204 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
   </KeyMap>
   <KeyMap>
     <Name>Monk Specialization</Name>
-    <Mappings />
+    <Mappings>
+      <MappedKey>
+        <Name>Soo - Spec Menu Load</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MenuStateAction">
+                <Menu>
+                  <MenuString>Spec x3</MenuString>
+                </Menu>
+                <ActionType>Load</ActionType>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MenuStyleAction">
+                <Menu>
+                  <MenuString>Spec x3</MenuString>
+                </Menu>
+                <ButtonSet>Spec x3</ButtonSet>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MenuButtonAction">
+                <MenuButton>
+                  <MenuString>Spec x3</MenuString>
+                </MenuButton>
+                <ButtonChanges>
+                  <UseImages>true</UseImages>
+                  <Image>
+                    <ImageString>Monk_Brewmaster.png</ImageString>
+                  </Image>
+                  <ImageHover />
+                  <ImagePressed />
+                </ButtonChanges>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MenuButtonAction">
+                <MenuButton>
+                  <MenuString>Spec x3</MenuString>
+                  <NumButton>1</NumButton>
+                </MenuButton>
+                <ButtonChanges>
+                  <Actions />
+                  <UseImages>true</UseImages>
+                  <Image>
+                    <ImageString>Monk_Mistweaver.png</ImageString>
+                  </Image>
+                  <ImageHover />
+                  <ImagePressed />
+                </ButtonChanges>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MenuButtonAction">
+                <MenuButton>
+                  <MenuString>Spec x3</MenuString>
+                  <NumButton>2</NumButton>
+                </MenuButton>
+                <ButtonChanges>
+                  <Actions />
+                  <UseImages>true</UseImages>
+                  <Image>
+                    <ImageString>Monk_WindWalker.png</ImageString>
+                  </Image>
+                  <ImageHover />
+                  <ImagePressed />
+                </ButtonChanges>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Soo - Spec Assignment Check</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>So1 - Spec</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Join</Action>
+                <RelayGroupString>ROLE=Tank</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Join</Action>
+                <RelayGroupString>ROLE=Healing1</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Join</Action>
+                <RelayGroupString>ABILITY=Stun</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Join</Action>
+                <RelayGroupString>ABILITY=Interrupt</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyRewriteAction">
+                <FromMappedKey>
+                  <KeyMapString>Combat [Virtualized]</KeyMapString>
+                </FromMappedKey>
+                <ToMappedKey>
+                  <KeyMapString>Monk - Brewmaster</KeyMapString>
+                </ToMappedKey>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="PopupTextAction">
+                <Text>Switching to Brewmaster</Text>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>So2 - Spec</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Leave</Action>
+                <RelayGroupString>ROLE=Tank</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Leave</Action>
+                <RelayGroupString>ROLE=Melee</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Join</Action>
+                <RelayGroupString>ROLE=Healing3</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Leave</Action>
+                <RelayGroupString>ABILITY=Stun</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Leave</Action>
+                <RelayGroupString>ABILITY=Interrupt</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyRewriteAction">
+                <FromMappedKey>
+                  <KeyMapString>Combat [Virtualized]</KeyMapString>
+                </FromMappedKey>
+                <ToMappedKey>
+                  <KeyMapString>Monk - Mistweaver</KeyMapString>
+                </ToMappedKey>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="PopupTextAction">
+                <Text>Switching to Mistweaver</Text>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>So3 - Spec</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Leave</Action>
+                <RelayGroupString>ROLE=Tank</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Join</Action>
+                <RelayGroupString>ROLE=Melee</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Join</Action>
+                <RelayGroupString>ROLE=Healing2</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Join</Action>
+                <RelayGroupString>ABILITY=Stun</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="TargetGroupAction">
+                <Action>Join</Action>
+                <RelayGroupString>ABILITY=Interrupt</RelayGroupString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyRewriteAction">
+                <FromMappedKey>
+                  <KeyMapString>Combat [Virtualized]</KeyMapString>
+                </FromMappedKey>
+                <ToMappedKey>
+                  <KeyMapString>Monk - Windwalker</KeyMapString>
+                </ToMappedKey>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="PopupTextAction">
+                <Text>Switching to Windwalker</Text>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>So4 - Spec</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+    </Mappings>
   </KeyMap>
   <KeyMap>
     <Name>Monk - Brewmaster</Name>
@@ -3989,7 +4409,11 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         <Name>oo1 - DPS Rotation</Name>
         <Steps>
           <Step>
-            <Actions />
+            <Actions>
+              <MappedKeyAction xsi:type="PopupTextAction">
+                <Text>Brewmaster</Text>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
@@ -4082,7 +4506,11 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         <Name>oo1 - DPS Rotation</Name>
         <Steps>
           <Step>
-            <Actions />
+            <Actions>
+              <MappedKeyAction xsi:type="PopupTextAction">
+                <Text>Windwalker</Text>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
@@ -4175,7 +4603,11 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         <Name>oo1 - DPS Rotation</Name>
         <Steps>
           <Step>
-            <Actions />
+            <Actions>
+              <MappedKeyAction xsi:type="PopupTextAction">
+                <Text>Mistweaver</Text>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
@@ -4451,21 +4883,52 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       <WoWMacro>
         <MacroCommands>/run SetSpecialization(1)</MacroCommands>
         <ColloquialName>SetSpecialization(1)</ColloquialName>
+        <Combo>
+          <Combo>F9</Combo>
+          <Key>
+            <Key>F9</Key>
+            <Code>67</Code>
+          </Key>
+        </Combo>
         <AllowCustomModifiers />
       </WoWMacro>
       <WoWMacro>
         <MacroCommands>/run SetSpecialization(2)</MacroCommands>
         <ColloquialName>SetSpecialization(2)</ColloquialName>
+        <Combo>
+          <Combo>STRG+F9</Combo>
+          <Modifiers>Ctrl</Modifiers>
+          <Key>
+            <Key>F9</Key>
+            <Code>67</Code>
+          </Key>
+        </Combo>
         <AllowCustomModifiers />
       </WoWMacro>
       <WoWMacro>
         <MacroCommands>/run SetSpecialization(3)</MacroCommands>
         <ColloquialName>SetSpecialization(3)</ColloquialName>
+        <Combo>
+          <Combo>ALT+F9</Combo>
+          <Modifiers>Alt</Modifiers>
+          <Key>
+            <Key>F9</Key>
+            <Code>67</Code>
+          </Key>
+        </Combo>
         <AllowCustomModifiers />
       </WoWMacro>
       <WoWMacro>
         <MacroCommands>/run SetSpecialization(4)</MacroCommands>
         <ColloquialName>SetSpecialization(4)</ColloquialName>
+        <Combo>
+          <Combo>UMSCHALT+F9</Combo>
+          <Modifiers>Shift</Modifiers>
+          <Key>
+            <Key>F9</Key>
+            <Code>67</Code>
+          </Key>
+        </Combo>
         <AllowCustomModifiers />
       </WoWMacro>
     </WoWMacros>
@@ -4769,6 +5232,86 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MenuButton>
     </Buttons>
   </MenuButtonSet>
+  <MenuButtonSet>
+    <Name>Spec x3</Name>
+    <Buttons>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>Spec Menu</KeyMapString>
+            <MappedKeyString>So1 - Spec</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <DisplayText>Spec1</DisplayText>
+        <Alpha>1</Alpha>
+      </MenuButton>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>Spec Menu</KeyMapString>
+            <MappedKeyString>So2 - Spec</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <DisplayText>Spec2</DisplayText>
+        <Alpha>1</Alpha>
+      </MenuButton>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>Spec Menu</KeyMapString>
+            <MappedKeyString>So3 - Spec</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <DisplayText>Spec3</DisplayText>
+        <Alpha>1</Alpha>
+      </MenuButton>
+    </Buttons>
+  </MenuButtonSet>
+  <MenuButtonSet>
+    <Name>Spec x4</Name>
+    <Buttons>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>Spec Menu</KeyMapString>
+            <MappedKeyString>So1 - Spec</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <DisplayText>Spec1</DisplayText>
+        <Alpha>1</Alpha>
+      </MenuButton>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>Spec Menu</KeyMapString>
+            <MappedKeyString>So2 - Spec</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <DisplayText>Spec2</DisplayText>
+        <Alpha>1</Alpha>
+      </MenuButton>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>Spec Menu</KeyMapString>
+            <MappedKeyString>So3 - Spec</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <DisplayText>Spec3</DisplayText>
+        <Alpha>1</Alpha>
+      </MenuButton>
+      <MenuButton>
+        <Actions>
+          <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+            <KeyMapString>Spec Menu</KeyMapString>
+            <MappedKeyString>So4 - Spec</MappedKeyString>
+          </MappedKeyAction>
+        </Actions>
+        <DisplayText>Spec4</DisplayText>
+        <Alpha>1</Alpha>
+      </MenuButton>
+    </Buttons>
+  </MenuButtonSet>
   <MenuTemplate>
     <Name>Formations</Name>
     <Description>Quick Setup Wizard 42 - Standard Formations Menu Template</Description>
@@ -4823,11 +5366,13 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
   <MenuTemplate>
     <Name>Toggles</Name>
     <Description>Quick Setup Wizard 42 - Standard Toggles Menu Template</Description>
+    <Popup />
     <NumButtons>2</NumButtons>
+    <BackgroundImage />
     <BackgroundColor>
       <Alpha>0</Alpha>
     </BackgroundColor>
-    <Alpha>0.75</Alpha>
+    <Alpha>0.7490196</Alpha>
     <Border>0</Border>
     <BorderColor>
       <Alpha>0</Alpha>
@@ -4840,6 +5385,9 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       <Width>48</Width>
       <Height>48</Height>
     </buttonSize>
+    <buttonImage />
+    <buttonImageHover />
+    <buttonImagePressed />
     <buttonBackgroundColor>
       <Alpha>0</Alpha>
     </buttonBackgroundColor>
@@ -4855,12 +5403,68 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     <buttonFontBold>1</buttonFontBold>
     <buttonFontSize>12</buttonFontSize>
     <buttonFontName>Arial</buttonFontName>
+    <XML_FileName />
+    <XML_Element />
     <Grid_buttonMargin>
       <Width>2</Width>
       <Height>2</Height>
     </Grid_buttonMargin>
     <Grid_Size>
       <Width>2</Width>
+      <Height>1</Height>
+    </Grid_Size>
+  </MenuTemplate>
+  <MenuTemplate>
+    <Name>Class Spec Assignment</Name>
+    <Popup />
+    <NumButtons>4</NumButtons>
+    <BackgroundImage />
+    <BackgroundColor>
+      <Alpha>0</Alpha>
+    </BackgroundColor>
+    <Border>0</Border>
+    <BorderColor>
+      <Red>128</Red>
+      <Green>128</Green>
+      <Blue>128</Blue>
+    </BorderColor>
+    <frameSize>
+      <Width>712</Width>
+      <Height>128</Height>
+    </frameSize>
+    <buttonSize>
+      <Width>128</Width>
+      <Height>128</Height>
+    </buttonSize>
+    <buttonImage />
+    <buttonImageHover />
+    <buttonImagePressed />
+    <buttonBackgroundColor>
+      <Alpha>0</Alpha>
+    </buttonBackgroundColor>
+    <buttonBorderColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+    </buttonBorderColor>
+    <buttonAlpha>0</buttonAlpha>
+    <buttonBorder>0</buttonBorder>
+    <buttonFontColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+    </buttonFontColor>
+    <buttonFontBold>0</buttonFontBold>
+    <buttonFontSize>12</buttonFontSize>
+    <buttonFontName>Tahoma</buttonFontName>
+    <XML_FileName />
+    <XML_Element />
+    <Grid_buttonMargin>
+      <Width>40</Width>
+      <Height>0</Height>
+    </Grid_buttonMargin>
+    <Grid_Size>
+      <Width>4</Width>
       <Height>1</Height>
     </Grid_Size>
   </MenuTemplate>
@@ -4876,6 +5480,18 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     <Name>ISB42 - Toggles</Name>
     <Template>Toggles</Template>
     <ButtonLayout>ISB42 - Toggles</ButtonLayout>
+    <HotkeyLayout />
+  </Menu>
+  <Menu>
+    <Name>Spec x3</Name>
+    <Template>Class Spec Assignment</Template>
+    <ButtonLayout />
+    <HotkeyLayout />
+  </Menu>
+  <Menu>
+    <Name>Spec x4</Name>
+    <Template>Class Spec Assignment</Template>
+    <ButtonLayout>Spec: Monk</ButtonLayout>
     <HotkeyLayout />
   </Menu>
 </ISBoxerToolkitProfile>
