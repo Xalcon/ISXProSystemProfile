@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="42" VersionMinor="0" BuildDate="05/10/2018 20:47:33">
+<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="42" VersionMinor="0" BuildDate="05/10/2018 21:10:23">
   <CharacterSet>
     <ExecuteOnLoad />
     <Name>Pro System</Name>
@@ -3675,28 +3675,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     <Name>Combat Hotkeys</Name>
     <Mappings>
       <MappedKey>
-        <Name>ooS - Spec Assignment Check</Name>
-        <Combo>
-          <Combo>STRG+UMSCHALT+ALT+A</Combo>
-          <Modifiers>Ctrl Shift Alt</Modifiers>
-          <Key>
-            <Key>A</Key>
-            <Code>30</Code>
-          </Key>
-        </Combo>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>all</Target>
-                <KeyMapString>Combat [Virtualized]</KeyMapString>
-                <MappedKeyString>ooS - Spec Assignment Check</MappedKeyString>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
         <Name>oo1 - DPS Rotation</Name>
         <Combo>
           <Combo>2</Combo>
@@ -3871,7 +3849,7 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>ooS - Spec Assignment Check</Name>
+        <Name>ooS - Load Spec Assignment Icon</Name>
         <Steps>
           <Step>
             <Actions />
@@ -4020,9 +3998,42 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MappedKey>
       <MappedKey>
         <Name>Soo - Spec Assignment Check</Name>
+        <Combo>
+          <Combo>STRG+UMSCHALT+S</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>S</Key>
+            <Code>31</Code>
+          </Key>
+        </Combo>
+        <Mode>OnPressAndRelease</Mode>
         <Steps>
           <Step>
-            <Actions />
+            <Actions>
+              <MappedKeyAction xsi:type="MenuStateAction">
+                <Target>Follower</Target>
+                <Menu>
+                  <MenuString>Spec Feedback Icon</MenuString>
+                </Menu>
+                <ActionType>Load</ActionType>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>Follower</Target>
+                <KeyMapString>Combat [Virtualized]</KeyMapString>
+                <MappedKeyString>ooS - Load Spec Assignment Icon</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MenuStateAction">
+                <Target>Follower</Target>
+                <Menu>
+                  <MenuString>Spec Feedback Icon</MenuString>
+                </Menu>
+                <ActionType>Unload</ActionType>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
@@ -4113,14 +4124,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
     <Mappings>
       <MappedKey>
         <Name>Soo - Spec Menu Load</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Soo - Spec Assignment Check</Name>
         <Steps>
           <Step>
             <Actions />
@@ -4233,14 +4236,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 </ButtonChanges>
               </MappedKeyAction>
             </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Soo - Spec Assignment Check</Name>
-        <Steps>
-          <Step>
-            <Actions />
           </Step>
         </Steps>
       </MappedKey>
@@ -4398,10 +4393,25 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>ooS - Spec Assignment Check</Name>
+        <Name>ooS - Load Spec Assignment Icon</Name>
         <Steps>
           <Step>
-            <Actions />
+            <Actions>
+              <MappedKeyAction xsi:type="MenuButtonAction">
+                <MenuButton>
+                  <MenuString>Spec Feedback Icon</MenuString>
+                </MenuButton>
+                <ButtonChanges>
+                  <UseImages>true</UseImages>
+                  <Image>
+                    <ImageString>Monk_Brewmaster.png</ImageString>
+                  </Image>
+                  <ImageHover />
+                  <ImagePressed />
+                  <Alpha>1</Alpha>
+                </ButtonChanges>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
@@ -4412,103 +4422,6 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
             <Actions>
               <MappedKeyAction xsi:type="PopupTextAction">
                 <Text>Brewmaster</Text>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>oo2 - AOE DPS Rotation</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>oo3 - Interrupt</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>oo4 - Stun</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>oo5 - Cooldowns</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>oo6 - Taunt</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>oo7 - Pull</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-    </Mappings>
-  </KeyMap>
-  <KeyMap>
-    <Name>Monk - Windwalker</Name>
-    <Mappings>
-      <MappedKey>
-        <Name>___ - Initialize</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>___ - Buttons (Show)</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>___ - Buttons (Hide)</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>ooS - Spec Assignment Check</Name>
-        <Steps>
-          <Step>
-            <Actions />
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>oo1 - DPS Rotation</Name>
-        <Steps>
-          <Step>
-            <Actions>
-              <MappedKeyAction xsi:type="PopupTextAction">
-                <Text>Windwalker</Text>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -4592,10 +4505,25 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>ooS - Spec Assignment Check</Name>
+        <Name>ooS - Load Spec Assignment Icon</Name>
         <Steps>
           <Step>
-            <Actions />
+            <Actions>
+              <MappedKeyAction xsi:type="MenuButtonAction">
+                <MenuButton>
+                  <MenuString>Spec Feedback Icon</MenuString>
+                </MenuButton>
+                <ButtonChanges>
+                  <Actions />
+                  <UseImages>true</UseImages>
+                  <Image>
+                    <ImageString>Monk_Mistweaver.png</ImageString>
+                  </Image>
+                  <ImageHover />
+                  <ImagePressed />
+                </ButtonChanges>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
@@ -4606,6 +4534,118 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
             <Actions>
               <MappedKeyAction xsi:type="PopupTextAction">
                 <Text>Mistweaver</Text>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>oo2 - AOE DPS Rotation</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>oo3 - Interrupt</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>oo4 - Stun</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>oo5 - Cooldowns</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>oo6 - Taunt</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>oo7 - Pull</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+    </Mappings>
+  </KeyMap>
+  <KeyMap>
+    <Name>Monk - Windwalker</Name>
+    <Mappings>
+      <MappedKey>
+        <Name>___ - Initialize</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>___ - Buttons (Show)</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>___ - Buttons (Hide)</Name>
+        <Steps>
+          <Step>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>ooS - Load Spec Assignment Icon</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="MenuButtonAction">
+                <MenuButton>
+                  <MenuString>Spec Feedback Icon</MenuString>
+                </MenuButton>
+                <ButtonChanges>
+                  <Actions />
+                  <UseImages>true</UseImages>
+                  <Image>
+                    <ImageString>Monk_WindWalker.png</ImageString>
+                  </Image>
+                  <ImageHover />
+                  <ImagePressed />
+                </ButtonChanges>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>oo1 - DPS Rotation</Name>
+        <Steps>
+          <Step>
+            <Actions>
+              <MappedKeyAction xsi:type="PopupTextAction">
+                <Text>Windwalker</Text>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -5312,6 +5352,20 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       </MenuButton>
     </Buttons>
   </MenuButtonSet>
+  <MenuButtonSet>
+    <Name>Class Spec Feedback Icon Button</Name>
+    <Buttons>
+      <MenuButton>
+        <Actions />
+        <DisplayText>Spec Image Template</DisplayText>
+        <UseImages>true</UseImages>
+        <Image />
+        <ImageHover />
+        <ImagePressed />
+        <Alpha>1</Alpha>
+      </MenuButton>
+    </Buttons>
+  </MenuButtonSet>
   <MenuTemplate>
     <Name>Formations</Name>
     <Description>Quick Setup Wizard 42 - Standard Formations Menu Template</Description>
@@ -5468,6 +5522,56 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
       <Height>1</Height>
     </Grid_Size>
   </MenuTemplate>
+  <MenuTemplate>
+    <Name>Class Spec Assignment Feedback</Name>
+    <ClickThrough>true</ClickThrough>
+    <Popup />
+    <BackgroundImage />
+    <BackgroundColor />
+    <Border>0</Border>
+    <BorderColor>
+      <Red>128</Red>
+      <Green>128</Green>
+      <Blue>128</Blue>
+    </BorderColor>
+    <frameSize>
+      <Width>384</Width>
+      <Height>384</Height>
+    </frameSize>
+    <buttonSize>
+      <Width>384</Width>
+      <Height>384</Height>
+    </buttonSize>
+    <buttonImage />
+    <buttonImageHover />
+    <buttonImagePressed />
+    <buttonBackgroundColor>
+      <Alpha>0</Alpha>
+    </buttonBackgroundColor>
+    <buttonBorderColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+    </buttonBorderColor>
+    <buttonFontColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+    </buttonFontColor>
+    <buttonFontBold>0</buttonFontBold>
+    <buttonFontSize>12</buttonFontSize>
+    <buttonFontName>Tahoma</buttonFontName>
+    <XML_FileName />
+    <XML_Element />
+    <Grid_buttonMargin>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Grid_buttonMargin>
+    <Grid_Size>
+      <Width>1</Width>
+      <Height>1</Height>
+    </Grid_Size>
+  </MenuTemplate>
   <Menu>
     <Name>ISB42 - Formations</Name>
     <Template>Formations</Template>
@@ -5491,7 +5595,15 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
   <Menu>
     <Name>Spec x4</Name>
     <Template>Class Spec Assignment</Template>
-    <ButtonLayout>Spec: Monk</ButtonLayout>
+    <ButtonLayout />
     <HotkeyLayout />
+  </Menu>
+  <Menu>
+    <Name>Spec Feedback Icon</Name>
+    <Template>Class Spec Assignment Feedback</Template>
+    <ButtonLayout>Class Spec Feedback Icon Button</ButtonLayout>
+    <HotkeyLayout />
+    <X>768</X>
+    <Y>348</Y>
   </Menu>
 </ISBoxerToolkitProfile>
